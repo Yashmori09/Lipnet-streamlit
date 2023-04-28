@@ -40,7 +40,7 @@ def load_alignments(path: str) -> List[str]:
 
 def load_data(path: str):
     path = bytes.decode(path.numpy())
-    # file_name = path.split('/')[-1].split('.')[0]
+    file_name = path.split('/')[-1].split('.')[0]
     # File name splitting for windows
     file_name = path.split('\\')[-1].split('.')[0]
     video_path = os.path.join('data', 's1', f'{file_name}.mpg')
