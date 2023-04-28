@@ -1,5 +1,5 @@
 imageio
 opencv_python
-streamlit
+streamlit==1.20.0
 tensorflow
 tensorflow_intel
